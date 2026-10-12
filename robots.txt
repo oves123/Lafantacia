@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lafantacia.com/sitemap.xml

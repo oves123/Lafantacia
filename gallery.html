@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio & Gallery | La Fantacia — Events & Luxury Catering</title>
+    <meta name="description" content="Explore La Fantacia's curated portfolio of bespoke event styling, floral decor, engagement ceremonies, birthdays, and luxury catering in the East Bay, CA.">
+    <link rel="canonical" href="https://lafantacia.com/gallery.html">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lafantacia.com/gallery.html">
+    <meta property="og:title" content="Portfolio & Gallery | La Fantacia">
+    <meta property="og:description" content="Explore photographic moments from recent weddings, private parties, corporate events, and culinary creations.">
+    <meta property="og:image" content="images/gallery_setup.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="subpage">
+
+
+    <!-- Navigation -->
+    <header class="navbar scrolled" id="site-header">
+        <div class="nav-container">
+            <a href="index.html" class="brand-logo" aria-label="La Fantacia Home">
+                <img src="https://lafantacia.com/wp-content/uploads/2024/01/cropped-FINAL-LA-FANTACIA-PNG.png" alt="La Fantacia Logo" width="180" height="42">
+            </a>
+            
+            <nav class="nav-menu-wrap" aria-label="Primary Navigation">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="events.html" class="nav-link">Events</a></li>
+                    <li><a href="catering.html" class="nav-link">Catering</a></li>
+                    <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-cta-wrap">
+                <a href="contact.html" class="btn-primary nav-cta-btn">Plan Your Event</a>
+            </div>
+
+            <button class="mobile-toggle" id="mobile-toggle-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+        <div class="mobile-drawer-header">
+            <a href="index.html" class="brand-logo" aria-label="La Fantacia Home">
+                <img src="https://lafantacia.com/wp-content/uploads/2024/01/cropped-FINAL-LA-FANTACIA-PNG.png" alt="La Fantacia Logo" width="140" height="32">
+            </a>
+            <button class="mobile-drawer-close" id="mobile-drawer-close" aria-label="Close navigation menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <ul class="mobile-drawer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="catering.html">Catering</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="mobile-drawer-cta">
+            <a href="contact.html" class="btn-primary" style="width: 100%; text-align: center; display: block;">Plan Your Event</a>
+        </div>
+        <div class="mobile-drawer-contact">
+            <p><strong>Direct Inquiries:</strong></p>
+            <p><a href="tel:4086377793">408-637-7793</a></p>
+            <p><a href="mailto:Event.lafantacia@gmail.com">Event.lafantacia@gmail.com</a></p>
+            <p style="margin-top: 8px; font-size: 0.82rem; color: var(--color-text-muted);">Serving Dublin, Pleasanton, San Ramon, Livermore & East Bay</p>
+        </div>
+    </div>
+    <div class="mobile-drawer-backdrop" id="mobile-drawer-backdrop" aria-hidden="true"></div>
+
+    <main id="main-content">
+
+        <!-- Subpage Hero (Light Luxury) -->
+        <section class="subpage-hero">
+            <div class="subpage-hero-bg" style="background-image: url('images/gallery_setup.png');"></div>
+            <div class="subpage-hero-inner reveal">
+                <div class="breadcrumb-nav">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Portfolio</span>
+                </div>
+                <span class="eyebrow">Visual Stories</span>
+                <h1 class="display-heading">Moments Made Magical</h1>
+                <p class="lead-p" style="color: var(--color-text-muted); margin-bottom: 0;">An editorial showcase of event styling, immersive ceremonies, and artisanal catering created across Northern California.</p>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="featured-gallery-section" style="background-color: var(--color-white);">
+            <div class="container">
+
+                <!-- Filter Controls -->
+                <div class="gallery-filter-bar reveal">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="engagements">Engagements</button>
+                    <button class="filter-btn" data-filter="birthdays">Birthdays</button>
+                    <button class="filter-btn" data-filter="weddings">Weddings</button>
+                    <button class="filter-btn" data-filter="private-parties">Private Parties</button>
+                    <button class="filter-btn" data-filter="catering">Catering</button>
+                </div>
+
+                <!-- Interactive Gallery Grid -->
+                <div class="gallery-grid-interactive" id="gallery-interactive-grid">
+                    
+                    <!-- 1. Ballroom Setup -->
+                    <div class="gallery-tile item-wide reveal" data-category="weddings" data-src="images/event_decor.png" data-caption="Grand Ballroom Reception Styling & Crystal Chandeliers">
+                        <img src="images/event_decor.png" alt="Ballroom Reception Styling" loading="lazy">
+                        <div class="gallery-tile-overlay">
+                            <span class="gallery-zoom-icon">&#x26F6;</span>
+                            <span class="gallery-tile-category">Weddings</span>
+                            <h4 class="gallery-tile-title">Grand Ballroom Reception Styling</h4>
+                        </div>
+                    </div>
+
+                    <!-- 2. Engagement Event -->
+                    <div class="gallery-tile reveal reveal-delay-1" data-category="engagements" data-src="images/engagement_event.png" data-caption="Romantic Engagement Floral Arch & Stage Setup">
+                        <img src="images/engagement_event.png" alt="Engagement Stage Decor" loading="lazy">
+                        <div class="gallery-tile-overlay">
+                            <span class="gallery-zoom-icon">&#x26F6;</span>
+                            <span class="gallery-tile-category">Engagements</span>
+                            <h4 class="gallery-tile-title">Romantic Floral Stage Design</h4>
+                        </div>
+                    </div>
+
+                    <!-- 3. Birthday Celebration -->
+                    <div class="gallery-tile reveal reveal-delay-2" data-category="birthdays" data-src="images/birthday_party.png" data-caption="Milestone Birthday Dinner & Ambient Table Styling">
+                        <img src="images/birthday_party.png" alt="Birthday Celebration Setup" loading="lazy">
+                        <div class="gallery-tile-overlay">
+                            <span class="gallery-zoom-icon">&#x26F6;</span>
+                            <span class="gallery-tile-category">Birthdays</span>
+                            <h4 class="gallery-tile-title">Milestone Celebration Dining</h4>
+                        </div>
+                    </div>
+
+                    <!-- 4. Catering Detail Starters -->
+                    <div class="gallery-tile reveal" data-category="catering" data-src="images/catering_detail.png" data-caption="Fine-Dining Passed Canapés & Starter Course">
+                        <img src="images/catering_detail.png" alt="Catering Starter Dish" loading="lazy">
+                        <div class="gallery-tile-overlay">
+                            <span class="gallery-zoom-icon">&#x26F6;</span>
+                            <span class="gallery-tile-category">Catering</span>
+                            <h4 class="gallery-tile-title">Gourmet Appetizer Course</h4>
+                        </div>
+                    </div>
+
+                    <!-- 5. Private Garden Party -->
+                    <div class="gallery-tile reveal reveal-delay-1" data-category="private-parties" data-src="images/private_party.png" data-caption="Intimate Garden Dining with Fairy String Lights">
+                        <img src="images/private_party.png" alt="Private Garden Party Setup" loading="lazy">
+                        <div class="gallery-tile-overlay">
+                            <span class="gallery-zoom-icon">&#x26F6;</span>
+                            <span class="gallery-tile-category">Private Parties</span>
+                            <h4 class="gallery-tile-title">Intimate Garden Celebration</h4>
+                        </div>
+                    </div>
+
+                    <!-- 6. Main Course Plated -->
+                    <div class="gallery-tile reveal reveal-delay-2" data-category="catering" data-src="images/main_course.png" data-caption="Plated Tenderloin & Roasted Heirloom Vegetables">
+                        <img src="images/main_course.png" alt="Plated Gourmet Main Course" loading="lazy">
+                        <div class="gallery-tile-overlay">
+                            <span class="gallery-zoom-icon">&#x26F6;</span>
+                            <span class="gallery-tile-category">Catering</span>
+                            <h4 class="gallery-tile-title">Curated Main Course</h4>
+                        </div>
+                    </div>
+
+                    <!-- 7. Live Cooking Station -->
+                    <div class="gallery-tile reveal" data-category="catering" data-src="images/live_counter.png" data-caption="Chef-Attended Live Cooking & Specialty Counter">
+                        <img src="images/live_counter.png" alt="Live Cooking Station" loading="lazy">
+                        <div class="gallery-tile-overlay">
+                            <span class="gallery-zoom-icon">&#x26F6;</span>
+                            <span class="gallery-tile-category">Catering</span>
+                            <h4 class="gallery-tile-title">Interactive Live Food Station</h4>
+                        </div>
+                    </div>
+
+                    <!-- 8. Corporate Banquet -->
+                    <div class="gallery-tile reveal reveal-delay-1" data-category="private-parties" data-src="images/corporate_event.png" data-caption="Executive Banquet & Gala Dining Table Decor">
+                        <img src="images/corporate_event.png" alt="Corporate Gala Dinner Setup" loading="lazy">
+                        <div class="gallery-tile-overlay">
+                            <span class="gallery-zoom-icon">&#x26F6;</span>
+                            <span class="gallery-tile-category">Private Parties</span>
+                            <h4 class="gallery-tile-title">Corporate Gala Banquet</h4>
+                        </div>
+                    </div>
+
+                    <!-- 9. Floral Centerpieces -->
+                    <div class="gallery-tile reveal reveal-delay-2" data-category="weddings" data-src="images/wedding_detail.png" data-caption="Lush Floral Centerpieces & Crystal Glassware">
+                        <img src="images/wedding_detail.png" alt="Wedding Floral Centerpieces" loading="lazy">
+                        <div class="gallery-tile-overlay">
+                            <span class="gallery-zoom-icon">&#x26F6;</span>
+                            <span class="gallery-tile-category">Weddings</span>
+                            <h4 class="gallery-tile-title">Fine Floral Centerpieces</h4>
+                        </div>
+                    </div>
+
+                    <!-- 10. Desserts Table -->
+                    <div class="gallery-tile reveal" data-category="catering" data-src="images/gourmet_desserts.png" data-caption="Artisanal Macarons, Truffles & Sweet Confections">
+                        <img src="images/gourmet_desserts.png" alt="Catering Desserts Table" loading="lazy">
+                        <div class="gallery-tile-overlay">
+                            <span class="gallery-zoom-icon">&#x26F6;</span>
+                            <span class="gallery-tile-category">Catering</span>
+                            <h4 class="gallery-tile-title">Artisanal Desserts & Sweets</h4>
+                        </div>
+                    </div>
+
+                    <!-- 11. Craft Mocktails Bar -->
+                    <div class="gallery-tile reveal reveal-delay-1" data-category="catering" data-src="images/craft_beverages.png" data-caption="Handcrafted Botanical Mocktails & Beverage Bar">
+                        <img src="images/craft_beverages.png" alt="Craft Beverages Bar" loading="lazy">
+                        <div class="gallery-tile-overlay">
+                            <span class="gallery-zoom-icon">&#x26F6;</span>
+                            <span class="gallery-tile-category">Catering</span>
+                            <h4 class="gallery-tile-title">Botanical Beverage Service</h4>
+                        </div>
+                    </div>
+
+                    <!-- 12. Outdoor Ceremony Arch -->
+                    <div class="gallery-tile reveal reveal-delay-2" data-category="weddings" data-src="images/hero_wedding.png" data-caption="Scenic Outdoor Wedding Ceremony & Floral Archway">
+                        <img src="images/hero_wedding.png" alt="Wedding Ceremony Arch" loading="lazy">
+                        <div class="gallery-tile-overlay">
+                            <span class="gallery-zoom-icon">&#x26F6;</span>
+                            <span class="gallery-tile-category">Weddings</span>
+                            <h4 class="gallery-tile-title">Outdoor Ceremony Archway</h4>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox Modal -->
+        <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-label="Image Preview">
+            <div class="lightbox-container">
+                <button class="lightbox-close" id="lightbox-close-btn" aria-label="Close Preview">&times;</button>
+                <img src="" alt="" class="lightbox-image" id="lightbox-img">
+                <p class="lightbox-caption" id="lightbox-caption"></p>
+            </div>
+        </div>
+
+        <!-- Final CTA Banner (Light Luxury) -->
+        <section class="final-cta-section">
+            <div class="final-cta-bg" style="background-image: url('images/cta_light_celebration.png');"></div>
+            <div class="final-cta-overlay"></div>
+            <div class="container">
+                <div class="final-cta-inner reveal">
+                    <span class="eyebrow">Your Vision Awaits</span>
+                    <h2 class="display-heading">Let's Create Your Next Masterpiece</h2>
+                    <p>Contact our creative directors to begin planning the styling, coordination, and catering for your upcoming milestone.</p>
+                    <div class="final-cta-actions">
+                        <a href="contact.html" class="btn-primary">Plan Your Event</a>
+                        <a href="contact.html?service=catering" class="btn-secondary">Request Catering Quote</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer (Light Luxury) -->
+    <footer class="master-footer">
+        <div class="container">
+            <div class="footer-top-grid">
+                <div class="footer-col footer-col-brand">
+                    <a href="index.html" class="footer-logo-link">
+                        <img src="https://lafantacia.com/wp-content/uploads/2024/01/cropped-FINAL-LA-FANTACIA-PNG.png" alt="La Fantacia Logo" width="160" height="40">
+                    </a>
+                    <p>Premier event management and luxury catering company based in Pleasanton, CA. Creating beautiful celebrations across the East Bay.</p>
+                    <span class="footer-area-tag">Tri-Valley & East Bay, CA</span>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Event Management</h5>
+                    <ul class="footer-links-list">
+                        <li><a href="events.html#engagements">Engagement Ceremonies</a></li>
+                        <li><a href="events.html#birthdays">Birthday Parties</a></li>
+                        <li><a href="events.html#weddings">Wedding Celebrations</a></li>
+                        <li><a href="events.html#corporate">Corporate Banquets</a></li>
+                        <li><a href="events.html#corporate">Private Celebrations</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Catering Services</h5>
+                    <ul class="footer-links-list">
+                        <li><a href="catering.html#starters">Snacks & Starters</a></li>
+                        <li><a href="catering.html#mains">Main Courses</a></li>
+                        <li><a href="catering.html#live-counters">Live Counters</a></li>
+                        <li><a href="catering.html#desserts">Desserts & Sweets</a></li>
+                        <li><a href="catering.html#beverages">Beverages</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Contact Information</h5>
+                    <div class="footer-contact-item">
+                        <strong>Phone / Consultation:</strong>
+                        <a href="tel:4086377793">408-637-7793</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <strong>Email Inquiries:</strong>
+                        <a href="mailto:Event.lafantacia@gmail.com">Event.lafantacia@gmail.com</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <strong>Service Areas:</strong>
+                        <span>Dublin, Pleasanton, San Ramon, Livermore, Walnut Creek, Danville & East Bay</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom-bar">
+                <p>&copy; 2026 La Fantacia Events & Catering. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="about.html">About Us</a>
+                    <a href="gallery.html">Portfolio</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-actions-wrap" aria-label="Quick Actions">
+        <button class="floating-back-to-top" id="back-to-top-btn" title="Back to top" aria-label="Scroll back to top">&#8593;</button>
+        <a href="https://wa.me/14086377793" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" title="Chat on WhatsApp" aria-label="Chat on WhatsApp">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.031 2C6.511 2 2.022 6.489 2.022 12.008c0 1.912.54 3.754 1.564 5.352L2 22l4.805-1.543c1.53.945 3.305 1.455 5.226 1.455 5.52 0 10.01-4.489 10.01-10.008C22.041 6.489 17.551 2 12.031 2zm5.836 14.199c-.243.684-1.218 1.254-1.706 1.332-.472.076-1.077.108-3.155-.754-2.488-1.031-4.086-3.559-4.21-3.725-.124-.166-1.008-1.343-1.008-2.56 0-1.218.638-1.817.865-2.062.227-.245.498-.306.664-.306.166 0 .332.002.476.01.154.008.361-.059.564.43.208.502.71 1.732.772 1.859.062.127.103.275.02.441-.083.166-.124.269-.248.414-.124.145-.262.325-.374.437-.124.124-.253.259-.109.506.145.247.643 1.059 1.381 1.716.949.845 1.749 1.107 1.996 1.23.247.124.393.104.538-.062.145-.166.622-.725.788-.973.166-.248.332-.207.56-.124.228.083 1.452.684 1.701.808.249.124.415.187.477.29.062.104.062.602-.181 1.286z"/>
+            </svg>
+        </a>
+    </div>
+
+    <!-- Master Script: Mobile Carousel 3s Auto-Scroll, Manual Swipe, Lightbox & Interactions -->
+    <script src="script.js"></script>
+</body>
+</html>
